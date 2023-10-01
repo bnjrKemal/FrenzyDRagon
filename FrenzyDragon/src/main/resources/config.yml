@@ -1,0 +1,83 @@
+#Admin
+no-permission: '&f[&cFrenzy Dragon&f] &4Yetkin yok!'
+you-can-not-use-in-the-console: '&f[&cFrenzy Dragon&f] &4Bu komut konsolda kullanılmaz.'
+saved-location-for-the-dragon: '&f[&cFrenzy Dragon&f] &aEnder Dragon spawn lokalizasyonu ayarlandı.'
+saved-location-for-the-spawn: '&f[&cFrenzy Dragon&f] &2Dönüş spawn lokalizasyonu ayarlandı.'
+already-stopped-event: '&f[&cFrenzy Dragon&f] &cEvent zaten başladı. Durdurmak için /frenzydragon stop'
+already-started-event: '&f[&cFrenzy Dragon&f] &cEvent zaten duruk. Başlatmak için /frenzydragon start'
+invalid-argument: '&f[&cFrenzy Dragon&f] &cGeçersiz argüment. İkinci argüment sayı olmalı.'
+reload: '&f[&cFrenzy Dragon&f] &aConfig.yml yenilendi.'
+saved-items: '&f[&cFrenzy Dragon&f] &a{number}. kazanan kişiye verilecek ödüller ayarlandı.'
+you-must-set-the-spawn-location: '&f[&cFrenzy Dragon&f] &cHata oluştu. Ender Location ayarlı değil! /frenzydragon setspawn'
+you-must-set-the-dragon-location: '&f[&cFrenzy Dragon&f] &cHata oluştu. Spawn Location ayarlı değil! /frenzydragon setlocation'
+stopped-event: '&f[&cFrenzy Dragon&f] &cEvent sonlandırıldı.'
+started-event: '&f[&cFrenzy Dragon&f] &aEvent başlatıldı.'
+cancelled-event: '&f[&cFrenzy Dragon&f] &cEvent iptal edildi.'
+portal-command-in-err: 'say %player% portala girdi ve gerekli komut çalıştırıldı'
+deleted-file: '&f[&cFrenzy Dragon&f] &cTüm veriler silindi.'
+you-must-to-cancel-the-event: '&f[&cFrenzy Dragon&f] &cÖnce etkinliği durdurmalısın.'
+
+#Player
+start: '&f[&8Frenzy Dragon&f] Ender Dragon etkinliği başlamıştır..'
+finish: '&f[&8Frenzy Dragon&f] Ender Dragon etkinliği bitmiştir. En çok hasar verenlere ödüller verilmiştir.'
+cancel: '&f[&8Frenzy Dragon&f] Etkinlik iptal edildi. Ödüller verilmeyecek.'
+no-enter: '&f[&8Frenzy Dragon&f] Etkinlik başlamadı. Giremezsin.'
+action-bar: '&f[&8Frenzy Dragon&f] &aToplam verdiğin can kaybı: {damage}/{maxhealth}'
+your-chest-is-fully: '&f[&8Frenzy Dragon&f] &cEnvanterin doldu'
+
+#/ejderha top
+top-list: 10
+top-format: '&f{top-index}. &5{top-key} &8» &d{top-value} | Ejderha öldürme sayısı » {kill-count}' #top-index sayı; top-value player; top-key değer; {kill-count} ejderha öldürme sayısı cinsinde
+top:
+  - ''
+  - '&eEn çok ejderhaya zarar veren oyuncuların &6TOP &elistesi'
+  - ''
+  - '{top-format}'
+  - ''
+
+#Ödüllemeler
+rewards:
+  1:
+    items:
+    commands:
+      - say %player% 1. oldu
+  2:
+    items:
+    commands:
+      - say %player% 2. oldu
+  3:
+    items:
+    commands:
+      - say %player% 3. oldu
+  4:
+    items:
+    commands:
+      - say %player% 4. oldu
+  5:
+    items:
+    commands:
+      - say %player% 5. oldu
+  6:
+    items:
+    commands:
+      - say %player% 6. oldu
+  7:
+    items:
+    commands:
+      - say %player% 7. oldu
+  8:
+    items:
+    commands:
+      - say %player% 8. oldu
+  9:
+    items:
+    commands:
+      - say %player% 9. oldu
+  10:
+    items:
+    commands:
+      - say %player% 10. oldu
+
+location:
+
+spawn:

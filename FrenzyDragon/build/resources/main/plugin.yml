@@ -1,0 +1,9 @@
+name: FrenzyDragon
+version: '1.6'
+main: com.frenzydragon.FrenzyDragon
+api-version: '1.16'
+softdepend:
+  - Multiverse-Core
+commands:
+  frenzydragon:
+  ejderha:
